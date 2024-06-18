@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(100, 26, 184);
+    overflow: hidden;
+}
+
+.container{
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 170px auto;
+
+}
+
+.wrapper {
+    width: 100%;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.wrapper .title {
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    color: white;
+    line-height: 80px;
+    background-color: #4b0fd8;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.wrapper form {
+    padding: 30px 20px 25px 25px;
+}
+
+.wrapper form .row {
+    height: 45px;
+    /* background: #4b0fd8; */
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wrapper form .row input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding-left: 60px;
+    font-size: 16px;
+    transition: all 0.3 ease;
+}
+
+.wrapper form .row i {
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    background: rgb(58, 58, 238);
+    border: 1px solid rgb(67, 67, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+
+.wrapper form .pass{
+    margin: -10px 0 20px 0;
+}
+.wrapper form .pass a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(69, 69, 235);
+}
+
+.wrapper form .pass:hover{
+    text-decoration: underline;
+}
+
+.wrapper form .btn input{
+    padding-left: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+   background: rgb(58, 58, 238);
+    border: 1px solid rgb(67, 67, 233);
+}
+
+
+.wrapper form .singup {
+    margin: -10px 0 20px 0;
+    text-align: center;
+}
+.wrapper form  .singup a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(69, 69, 235);
+}
+.wrapper form .singup a:hover{
+    text-decoration: underline;
+}
+
+form .btn input:hover{
+    background: #4b0fd8;
+}
+
+form .row input:focus{
+    border-color: #4b0fd8;
+    box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 157, 0.25);
+}
